@@ -1,0 +1,41 @@
+body{
+    font-family: sans-serif;
+}
+
+
+.biography{
+  width: 73%;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1.6;   /* para agregar interlineados */
+}
+
+.summary {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.summary-table{
+  border: 2px solid gray;   /* border tiene 3parametros, el ancho estilo y color este borde corresponde a la imagen*/
+  background-color: #f8f9fa;
+  padding: 2px;  /* es igual a el relleno */
+  font-size: 14px;
+  }
+
+  .summary-table thead th{
+    background-color: #B0C4DE;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 18px;
+  }
+
+  .summary-table tbody tr:first-child {/* first-child solo para que se centre nuestro primer hijo, porque existen varios tr dentro de la tabla */
+    text-align: center;
+  }
+
+  .summary-table tbody th{
+    text-align:left;
+   
+  }
+  
+  

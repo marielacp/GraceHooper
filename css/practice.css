@@ -1,0 +1,65 @@
+ /* cuando quiera maquetar con box sizing border box, todos los elementos tendran el mismo ancho*----atributos de practice/
+*{
+    box-sizing: border-box
+   }
+/* 300+ 18 + 1*/
+ /*
+#title {
+    text-align: center;
+    width: 300px;
+    padding: 8px;
+    border: 1px solid blue;
+    margin: 16px;
+    box-sizing: border-box
+  }
+/* 300+8+8+1+1+16+16--ancho total de una caja */
+/*
+#title {
+    text-align: center;
+    width: 300px;
+    padding: 8px;
+    border: 1px solid blue;
+    margin: 16px;
+}
+
+div{
+    box-sizing: 50px;
+    border: 3px solid blue;
+    text-align: center;
+    display: inline-block;
+    
+}
+
+.enlace{
+    color:blue;
+    text-decoration:none;
+    border: 1px solid red;
+    margin-left: 4px;
+    width:300px;
+    /* a es elemento inline por lo tanto no se modifica el ancho, solo usara el necesario.}*/
+
+    
+
+*{
+  box-sizing: border-box;
+  font-family: serif;
+}
+h1{
+    outline: 1px solid green;
+}
+ul{
+    outline: 1px solid yellow;
+    width: 241px;
+    list-style: none;
+    padding: 0
+}
+li {
+     outline: 1px solid rgb(55, 0, 255);
+}
+    .enlace {
+    outline: 1px solid orange;
+    display: inline-block;
+    width: 100px;
+    color: green;
+    margin-left: 4px;
+}
